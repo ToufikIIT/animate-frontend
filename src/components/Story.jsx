@@ -55,7 +55,7 @@ const FloatingImage = () => {
         <div className="relative size-full">
           <AnimatedTitle
             title="the st<b>o</b>ry of <br /> a hidden real<b>m</b>"
-            containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
+            containerClass="mt-5  mix-blend-difference relative z-10"
           />
 
           <div className="story-img-container">
@@ -74,7 +74,7 @@ const FloatingImage = () => {
               </div>
             </div>
 
-            {/* for the rounded corner */}
+            
             <svg
               className="invisible absolute size-0"
               xmlns="http://www.w3.org/2000/svg"
@@ -100,6 +100,7 @@ const FloatingImage = () => {
                 </filter>
               </defs>
             </svg>
+
           </div>
         </div>
 
